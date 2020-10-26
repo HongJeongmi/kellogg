@@ -1,0 +1,992 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Secular+One&display=swap');
+
+#wrap {
+	color: #2b292d;
+	font-family: 'Noto Sans KR';
+}
+
+header {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 80px;
+	font-family: 'Secular One';
+	background-color: #fff;
+	box-shadow: 0 7px 10px #eee;
+	z-index: 1000;
+}
+
+header > .logo {
+	position: absolute;
+	left: 50%;
+	top: 21px;
+	width: 121px;
+	margin-left: -590px;
+}
+
+header > .logo > a {
+	display: block;
+	height: 38px;
+	text-indent: -9999px;
+	background-image: url(../images/logo_.png);
+}
+
+header > nav {
+	position: absolute;
+	left: 50%;
+	top: 0;
+	margin-left: -350px;
+}
+
+header > nav > .gnb {
+	width: 798px;
+}
+
+header > nav > .gnb > li {
+	float: left;
+	height: 80px;
+}
+
+header > nav > .gnb > li {
+	margin-right: 0;
+}
+
+header > nav > .gnb > li > a {
+	display: block;
+	font-size: 17px;
+	margin-right: 70px;
+	line-height: 80px;
+}
+
+header > nav > .gnb > li > a > span {
+	margin-left: 3px;
+	color: #d20b2f;
+	font-weight: 800;
+	font-size: 18px;
+}
+
+header > nav > .gnb > li > .lnb {
+	display: none;
+	position: absolute;
+	right: 65px;
+	top: 80px;
+	width: 180px;
+	height: 215px;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+header > nav > .gnb > li > .lnb > li > a {
+	display: block;
+	height: 42px;
+	margin-left: 20px;
+	font-size: 15px;
+	line-height: 42px;
+}
+
+header > .shop {
+	position: relative;
+	position: absolute;
+	left: 50%;
+	top: 26px;
+	margin-left: 445px;
+}
+
+header > .shop > li {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 130px;
+	background-color: #fff;
+	border: 2px solid #d20b2f;
+	border-radius: 5px;
+}
+
+header > .shop > li:last-child {
+	background-color: #d20b2f;
+}
+
+header > .shop > li > a {
+	display: block;
+	height: 28px;
+	font-weight: 800;
+	font-size: 15px;
+	line-height: 28px;
+	text-align: center;
+}
+
+header > .shop > li:first-child > a {
+	color: #d20b2f;
+	font-size: 16px;
+	font-family: 'Noto Sans KR';
+}
+
+header > .shop > li:last-child > a {
+	color: #fff;
+}
+
+/* 섹션 */
+section {
+	position: relative;
+	height: 100%;
+	margin-top: 80px;
+}
+
+#visual {
+	overflow: hidden;
+	position: relative;
+}
+
+#visual > .slides {
+	width: 100%;
+	height: 820px;
+}
+
+#visual > .slides > .slides-container {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 400%;
+}
+
+#visual > .slides > .slides-container > li {
+	position: relative;
+	float: left;
+	width: 25%;
+	height: 820px;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+#visual > .slides > .slides-container > li:nth-child(1) {
+	background-image: url(../images/desktop_main0.png);
+}
+#visual > .slides > .slides-container > li:nth-child(2) {
+	background-image: url(../images/desktop_main1.png);
+}
+#visual > .slides > .slides-container > li:nth-child(3) {
+	background-image: url(../images/desktop_main2.png);
+}
+#visual > .slides > .slides-container > li:nth-child(4) {
+	background-image: url(../images/desktop_main3.png);
+}
+
+#visual > .slides > .slides-container > li:nth-child(1) > h2 {
+	position: absolute;
+	left: 50%;
+	top: 80px;
+	margin-left: -710px;
+	font-size: 105px;
+	font-family: 'Secular One';
+	line-height: 1.2;
+}
+
+#visual > .slides > .slides-container > li:nth-child(1) > p {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -55px 0 0 -710px;
+	font-size: 36px;
+	line-height: 1.4;
+}
+
+#visual > .slides > .slides-container > li:nth-child(1) > a {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	display: block;
+	width: 450px;
+	height: 105px;
+	margin: 130px 0 0 -710px;
+	color: #fff;
+	font-size: 36px;
+	font-weight: 600;
+	line-height: 105px;
+	text-align: center;
+	background-color: #d20b2f;
+	border-radius: 175px;
+}
+
+#visual > .slides > .slides-container > li:nth-child(2) > h2,
+#visual > .slides > .slides-container > li:nth-child(3) > h2,
+#visual > .slides > .slides-container > li:nth-child(4) > h2 {
+	position: absolute;
+	left: 105px;
+	top: 50%;
+	width: 594px;
+	height: 74px;
+	margin-top: -75px;
+	text-indent: -9999px;
+}
+
+#visual > .slides > .slides-container > li:nth-child(2) > h2,
+#visual > .slides > .slides-container > li:nth-child(4) > h2 {
+	background-image: url(../images/img_main_visual_txt_red_1180.png);
+}
+
+#visual > .slides > .slides-container > li:nth-child(3) > h2 {
+	background-image: url(../images/img_main_visual_txt_white_1180.png);
+}
+
+#visual > .navi {
+	position: absolute;
+	top: 50%;
+	display: block;
+	width: 20px;
+	height: 30px;
+	margin-top: -50px;
+	text-indent: -9999px;
+}
+
+#visual > .prev {
+	left: 20px;
+	background-image: url(../images/btn_visual_prev.png);
+}
+
+#visual > .next {
+	right: 20px;
+	background-image: url(../images/btn_visual_next.png);
+}
+
+#product {
+	display: flex;
+	position: absolute;
+	left: 50%;
+	top: 680px;
+	width: 1180px;
+	height: 275px;
+	margin-left: -590px;
+	background-color: #fff;
+	border-radius: 80px 0 80px 0;
+	box-shadow: 0 10px 13px #ddd;
+}
+
+#product > .text {
+	position: relative;
+	width: 236px;
+}
+
+#product > .text > h2 {
+	position: absolute;
+	left: 50px;
+	top: 50%;
+	width: 112px;
+	margin: -70px 0 0 10px;
+	font-size: 40px;
+	text-align: right;
+}
+
+#product > .text > a {
+	position: relative;
+	position: absolute;
+	left: 50%;
+	bottom: 58px;
+	display: block;
+	width: 85px;
+	height: 30px;
+	margin-left: -32px;
+}
+
+#product > .text > a > span {
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: block;
+	width: 65px;
+	height: 30px;
+	background-color: #fad900;
+	border-radius: 25px;
+}
+
+#product > .text > a > p {
+	position: absolute;
+	left: 0;
+	top: 3px;
+	font-weight: 600;
+	font-size: 17px;
+	letter-spacing: -1px;
+}
+
+#product > ul {
+	display: flex;
+	justify-content: space-between;
+	width: 915px;
+}
+
+#product > ul > li {
+	width: 207px;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+#product > ul > li:nth-child(1) {
+	background-image: url(../images/img_product_five_grain_checkschoco.png);
+}
+#product > ul > li:nth-child(2) {
+	background-image: url(../images/img_product_protein_granola.png);
+}
+#product > ul > li:nth-child(3) {
+	background-image: url(../images/img_product_real_granola.png);
+}
+#product > ul > li:nth-child(4) {
+	background-image: url(../images/img_product_checkschocobar.png);
+}
+
+#product > ul > li > a {
+	display: block;
+	height: 210px;
+	text-indent: -9999px;
+}
+
+#detail {
+	overflow: hidden;
+	position: relative;
+	width: 1180px;
+	margin: 172px auto 0;
+}
+
+#detail > .detail_slides {
+	position: relative;
+	width: 1180px;
+	height: 600px;
+}
+
+#detail > .detail_slides > .detail_container {
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: flex;
+	width: 4720px;
+}
+
+#detail > .detail_slides > .detail_container > li {
+	display: flex;
+	width: 1180px;
+}
+
+#detail > .detail_slides > .detail_container > li > img {
+	width: 600px;
+	height: 570px;
+}
+
+#detail > .detail_slides > .detail_container > li > .detail_text {
+	position: relative;
+	width: 580px;
+	height: 570px;
+	background-color: #fff8f5;
+}
+
+#detail > .detail_slides > .detail_container > li > .detail_text > p {
+	position: relative;
+	position: absolute;
+	left: 50%;
+	top: 60px;
+	width: 150px;
+	height: 60px;
+	margin-left: -255px;
+	padding-right: 20px;
+	color: #b51946;
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 60px;
+	text-align: right;
+	background-color: #f9d74c;
+	border-radius: 60px;
+}
+
+#detail > .detail_slides > .detail_container > li:first-child > .detail_text > p {
+	width: 170px;
+}
+
+#detail > .detail_slides > .detail_container > li > .detail_text > p > img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 60px;
+	height: 60px;
+}
+
+#detail > .detail_slides > .detail_container > li > .detail_text > h2 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	font-size: 28px;
+	margin: -125px 0 0 -245px;
+}
+
+#detail > .detail_slides > .detail_container > li > .detail_text > a {
+	position: relative;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	display: block;
+	width: 85px;
+	height: 30px;
+	margin: -15px 0 0 -245px;
+}
+
+#detail > .detail_slides > .detail_container > li > .detail_text > a > span {
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: block;
+	width: 65px;
+	height: 30px;
+	background-color: #fad900;
+	border-radius: 25px;
+}
+
+#detail > .detail_slides > .detail_container > li > .detail_text > a > p {
+	position: absolute;
+	left: 0;
+	top: 3px;
+	font-weight: 600;
+	font-size: 17px;
+	letter-spacing: -1px;
+}
+
+#detail > .detail_slides > .detail_container > li > .detail_text > .about > ol {
+	position: absolute;
+	left: 50%;
+	bottom: 40px;
+	display: flex;
+	margin-left: -245px;
+}
+
+#detail > .detail_slides > .detail_container > li > .detail_text > .about > ol > li {
+	width: 190px;
+}
+
+#detail > .detail_slides > .detail_container > li > .detail_text > .about > ol > li > img {
+	width: 60px;
+	height: 60px;
+	margin-left: 24px;
+}
+
+#detail > .detail_slides > .detail_container > li > .detail_text > .about > ol > li > p {
+	width: 110px;
+	margin: 10px 0 25px;
+	font-size: 16px;
+	text-align: center;
+}
+
+#detail > .detail_slides > .detail_container > li > .detail_text > .about > ol > li:last-child > p {
+	margin-bottom: 10px;
+}
+
+#detail > .detail_slides > .detail_container > li > .detail_text > .about > ol > li > p > span {
+	display: block;
+	font-size: 12px;
+}
+
+#detail > .detail_slides > .detail_container > li > .detail_text > .about > ol > li > h3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 110px;
+	height: 55px;
+	font-size: 16px;
+	font-family: 'Secular One';
+	text-align: center;
+	background-color: #ececec;
+	border-radius: 5px;
+}
+
+#detail > .detail_navi {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	display: block;
+	width: 50px;
+	height: 50px;
+	text-indent: -9999px;
+	margin-top: -25px;
+}
+
+#detail > .detail_prev {
+	margin-left: -570px;
+	background-image: url(../images/btn_content_prev.png);
+}
+
+#detail > .detail_next {
+	margin-left: 515px;
+	background-image: url(../images/btn_content_next.png);
+}
+
+#cereal {
+	width: 1180px;
+	height: 600px;
+	margin: 40px auto;
+	background-color: #bbb;
+}
+
+#cereal > ul > li {
+	position: relative;
+	float: left;
+	width: 295px;
+	height: 600px;
+}
+
+#cereal > ul > li:nth-child(1) {
+	background-image: url(../images/img_nutritional_off_1.png);
+}
+#cereal > ul > li:nth-child(2) {
+	background-image: url(../images/img_nutritional_off_2.png);
+}
+#cereal > ul > li:nth-child(3) {
+	background-image: url(../images/img_nutritional_off_3.png);
+}
+#cereal > ul > li:nth-child(4) {
+	background-image: url(../images/img_nutritional_off_4.png);
+}
+
+#cereal > ul > li > a {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	display: block;
+	width: 250px;
+	height: 250px;
+	margin: -125px 0 0 -125px;
+}
+
+#cereal > ul > li > a > span {
+	position: absolute;
+	left: 50%;
+	top: 20px;
+	display: block;
+	width: 100px;
+	height: 100px;
+	margin-left: -50px;
+}
+
+#cereal > ul > li:nth-child(1) > a > span {
+	background-image: url(../images/ico_nutritional_off_1.png);
+}
+#cereal > ul > li:nth-child(2) > a > span {
+	background-image: url(../images/ico_nutritional_off_2.png);
+}
+#cereal > ul > li:nth-child(3) > a > span {
+	background-image: url(../images/ico_nutritional_off_3.png);
+}
+#cereal > ul > li:nth-child(4) > a > span {
+	background-image: url(../images/ico_nutritional_off_4.png);
+}
+
+#cereal > ul > li > a > .c_text {
+	position: absolute;
+	left: 0;
+	bottom: 40px;
+	width: 250px;
+}
+
+#cereal > ul > li > a > .c_text > h2 {
+	line-height: 1.4;
+	text-align: center;
+}
+
+#cereal > ul > li > a > .c_text > p {
+	margin-top: 5px;
+	font-size: 13px;
+	font-family: 'Secular One';
+	text-align: center;
+	text-decoration: underline;
+}
+
+#cereal > ul > li:hover {
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#cereal > ul > li:nth-child(1):hover {
+	background-image: url(../images/img_nutritional_on_1.png);
+}
+#cereal > ul > li:nth-child(2):hover {
+	background-image: url(../images/img_nutritional_on_2.png);
+}
+#cereal > ul > li:nth-child(3):hover {
+	background-image: url(../images/img_nutritional_on_3.png);
+}
+#cereal > ul > li:nth-child(4):hover {
+	background-image: url(../images/img_nutritional_on_4.png);
+}
+
+#cereal > ul > li:hover > a {
+	background-size: cover;
+}
+
+#cereal > ul > li:nth-child(1):hover > a {
+	background-image: url(../images/ico_nutritional_on_1.png);
+}
+#cereal > ul > li:nth-child(2):hover > a {
+	background-image: url(../images/ico_nutritional_on_2.png);
+}
+#cereal > ul > li:nth-child(3):hover > a {
+	background-image: url(../images/ico_nutritional_on_3.png);
+}
+#cereal > ul > li:nth-child(4):hover > a {
+	background-image: url(../images/ico_nutritional_on_4.png);
+}
+
+#cereal > ul > li:hover > a > span {
+	display: none;
+}
+
+#cereal > ul > li:hover > a > .c_text {
+	top: 55px;
+	color: #fff;
+}
+
+#cereal > ul > li:hover > a > .c_text {
+	font-size: 13px;
+}
+
+#social_channel {
+	width: 1180px;
+	margin: 0 auto;
+}
+
+#social_channel > .tit {
+	position: relative;
+	width: 385px;
+	height: 100px;
+	color: #fff;
+	background-color: #d20b2f;
+	border-radius: 15px;
+}
+
+#social_channel > .tit > .deco {
+	position: absolute;
+	top: 17px;
+	display: block;
+	font-size: 16px;
+	letter-spacing: -1px;
+}
+
+#social_channel > .tit > .deco_1 {
+	left: 43px;
+}
+
+#social_channel > .tit > .deco_2 {
+	right: 43px;
+}
+
+#social_channel > .tit > img {
+	position: absolute;
+	left: 50%;
+	top: 15px;
+	width: 70px;
+	height: 25px;
+	margin-left: -35px;
+}
+
+#social_channel > .tit > p {
+	font-size: 32px;
+	font-family: 'Secular One';
+	line-height: 130px;
+	text-align: center;
+}
+
+#social_channel > .cont {
+	display: flex;
+	justify-content: space-between;
+	width: 1180px;
+	margin-top: 10px;
+}
+
+#social_channel > .cont > .youtube {
+	position: relative;
+	width: 700px;
+	background-image: url(../images/img_youtube.jpg);
+	background-position: center center;
+	background-size: cover;
+}
+
+#social_channel > .cont > .youtube > a {
+	display: block;
+	height: 442px;
+}
+
+#social_channel > .cont > .youtube > a > .app_logo {
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	width: 40px;
+	height: 40px;
+	text-indent: -9999px;
+	background-image: url(../images/icon_gnb_youtube.png);
+}
+
+#social_channel > .cont > .youtube > a > .play {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	display: block;
+	width: 100px;
+	height: 100px;
+	margin: -50px 0 0 -50px;
+	text-indent: -9999px;
+	background: url(../images/icon-play.png);
+	background-size: cover;
+	border-radius: 50px;
+	opacity: 0.7;
+}
+
+#social_channel > .cont > ul {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	width: 460px;
+	height: 460px;
+}
+
+#social_channel > .cont > ul > .social {
+	position: relative;
+	width: 220px;
+	background-repeat: no-repeat;
+}
+
+#social_channel > .cont > ul > .instagram_1 {
+	background-image: url(../images/img_Instagram_1.jpg);
+}
+#social_channel > .cont > ul > .instagram_2 {
+	background-image: url(../images/img_Instagram_2.jpg);
+}
+#social_channel > .cont > ul > .blog_1 {
+	background-image: url(../images/img_naver_blog_1.jpg);
+}
+#social_channel > .cont > ul > .blog_2 {
+	background-image: url(../images/img_naver_blog_2.jpg);
+}
+
+#social_channel > .cont > ul > .social > a {
+	display: block;
+	height: 220px;
+}
+
+#social_channel > .cont > ul > li > a > .app_logo {
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	width: 40px;
+	height: 40px;
+	text-indent: -9999px;
+}
+
+#social_channel > .cont > ul > .instagram_1 > a > .app_logo {
+	background-image: url(../images/icon_gnb_instagram.png);
+}
+
+#social_channel > .cont > ul > .instagram_2 > a > .app_logo {
+	background-image: url(../images/icon_gnb_instagram.png);
+}
+
+#social_channel > .cont > ul > .blog_1 > a > .app_logo {
+	background-image: url(../images/icon_gnb_naver_blog.png);
+}
+
+#social_channel > .cont > ul > .blog_2 > a > .app_logo {
+	background-image: url(../images/icon_gnb_naver_blog.png);
+}
+
+footer {
+	margin-top: 90px;
+	background-color: #d20b2f;
+}
+
+footer > .area {
+	width: 1180px;
+	margin: 0 auto;
+}
+
+#top {
+	display: none;
+	position: relative;
+	height: 120px;
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+
+#top > .foot_text {
+	position: absolute;
+	left: 0;
+	top: 30px;
+}
+
+#top > .foot_text > ul {
+	display: flex;
+}
+
+#top > .foot_text > ul > li > a {
+	display: block;
+	color: #fff;
+	font-weight: 800;
+	font-size: 13px;
+}
+#top > .foot_text > ul > li > a > span {
+	margin: 0 10px;
+	font-weight: none;
+	font-size: 11px;
+}
+
+#top > .foot_text > ol {
+	display: flex;
+	margin-top: 5px;
+}
+#top > .foot_text > ol > li {
+	font-size: 14px;
+}
+
+#top > .foot_text > ol > li > span {
+	margin: 5px;
+	font-size: 12px;
+}
+
+#bottom {
+	position: relative;
+	height: 80px;
+}
+
+#bottom > .foot_logo {
+	position: absolute;
+	left: 0;
+	top: 22px;
+	width: 115px;
+	background-image: url(../images/logo_white.png);
+}
+
+#bottom > .foot_logo > a {
+	display: block;
+	height: 36px;
+	text-indent: -9999px;
+}
+
+#bottom > address {
+	position: absolute;
+	left: 50%;
+	top: 33px;
+	margin-left: -300px;
+	color: #fff;
+	font-size: 13px;
+}
+
+#bottom > .sns {
+	position: absolute;
+	left: 50%;
+	top: 28px;
+	display: flex;
+	justify-content: space-between;
+	width: 95px;
+	margin-left: 195px;
+}
+#bottom > .sns > li {
+	width: 25px;
+	background-size: cover;
+}
+
+#bottom > .sns > li:nth-child(1) {
+	background-image: url(../images/icon_foot_youtube.png);
+}
+
+#bottom > .sns > li:nth-child(2) {
+	background-image: url(../images/icon_foot_instagram.png);
+}
+
+#bottom > .sns > li:nth-child(3) {
+	background-image: url(../images/icon_foot_naver_blog.png);
+}
+
+#bottom > .sns > li > a {
+	display: block;
+	height: 24px;
+	text-indent: -9999px;
+}
+
+#bottom > .lang {
+	position: relative;
+	position: absolute;
+	left: 50%;
+	top: 28px;
+	margin-left: 310px;
+}
+
+#bottom > .lang > li {
+	width: 220px;
+}
+
+#bottom > .lang > li > a {
+	display: block;
+	height: 20px;
+	padding: 2px 5px;
+	color: #fff;
+	font-size: 14px;
+	font-family: 'Secular One';
+	border: 1px solid #fff;
+}
+
+#bottom > .lang > li > .lang_list {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: -100px;
+	width: 220px;
+}
+
+#bottom > .lang > li > .lang_list > li {
+	background-color: #d20b2f;
+}
+
+#bottom > .lang > li > .lang_list > li > a {
+	display: block;
+	height: 20px;
+	padding: 0 5px;
+	color: #ffffff;
+	font-size: 14px;
+}
+
+#bottom > .lang > li > .lang_list > li:hover > a {
+	color: #d20b2f;
+	background-color: #fff;
+}
+
+#bottom > a {
+	position: absolute;
+	right: 1%;
+	top: 18px;
+	color: #fff;
+	font-size: 32px;
+	font-family: 800px;
+}
+
+aside {
+	display: none;
+	position: fixed;
+	right: 40px;
+	bottom: 90px;
+}
+
+aside > a {
+	display: block;
+	width: 60px;
+	height: 60px;
+	background-color: #fff;
+	border-radius: 60px;
+	box-shadow: 0 3px 5px #bbb;
+}
+
+aside > a > p {
+	color: #17b0f4;
+	font-size: 30px;
+	line-height: 60px;
+	text-align: center;
+}
+
+/* 가로폭이 992 이하로 미디어쿼리 설정 */
+@media screen and (max-width: 992px) {
+}
+
+/* 가로폭이 768 이하로 미디어쿼리 설정 */
+@media screen and (max-width: 768px) {
+}
